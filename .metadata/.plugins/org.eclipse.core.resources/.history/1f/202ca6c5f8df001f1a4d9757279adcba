@@ -1,0 +1,30 @@
+package com.basic;
+
+import java.util.Scanner;
+
+public class StringReverse {
+
+	public String reverseString(String name)
+	{
+		String result="";
+		int size=name.length();
+		for(int i=size;i>=1;i--)
+		{
+			result=result+name.charAt(i);
+		}
+		return result;
+	}
+	
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a string");
+		String name=sc.next();
+		
+		StringReverse str=new StringReverse();
+		String finalString=str.reverseString(name);
+		System.out.println("Reverse String is: "+finalString);
+
+	}
+
+}

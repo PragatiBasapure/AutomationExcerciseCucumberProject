@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-12T18:30:53 IST" name="Default suite" finished-at="2025-02-12T18:31:28 IST" duration-ms="35136">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.stepDefination.TestRunnerDemo@1807e3f6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-02-12T18:30:53 IST" name="Default test" finished-at="2025-02-12T18:31:28 IST" duration-ms="35136">
+      <class name="org.stepDefination.TestRunnerDemo">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.stepDefination.TestRunnerDemo@1807e3f6]" started-at="2025-02-12T18:30:53 IST" name="setUpClass" finished-at="2025-02-12T18:30:54 IST" duration-ms="675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7ae590f6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.stepDefination.TestRunnerDemo@1807e3f6]" started-at="2025-02-12T18:30:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T18:31:08 IST" duration-ms="13977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying SignUp Functionality With Valid Credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking SignUp Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.stepDefination.TestRunnerDemo@1807e3f6]" started-at="2025-02-12T18:31:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T18:31:17 IST" duration-ms="8681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verifying the login functionality with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking the login and Delete Account functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.stepDefination.TestRunnerDemo@1807e3f6]" started-at="2025-02-12T18:31:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T18:31:28 IST" duration-ms="11719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying delete account functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checking the login and Delete Account functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.stepDefination.TestRunnerDemo@1807e3f6]" started-at="2025-02-12T18:31:28 IST" name="tearDownClass" finished-at="2025-02-12T18:31:28 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.stepDefination.TestRunnerDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
