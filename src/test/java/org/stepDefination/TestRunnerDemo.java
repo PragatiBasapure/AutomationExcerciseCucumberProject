@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 			  "src/test/resources/Features/TestCase02_Login.feature"
 			  },
 	glue="org.stepDefination",
-	dryRun=false,
+	dryRun=true,
 	plugin= {"pretty","html:target/cucumber_reports.html"},
 	monochrome=true
 	
